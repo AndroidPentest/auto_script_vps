@@ -19,7 +19,7 @@ exp="$(chage -l $uname | grep "Account expires" | awk -F": " '{print $2}')"
 echo -e "$pass\n$pass\n"|passwd $uname &> /dev/null
 echo -e ""| lolcat
 echo -e "|      Informasi Akun Baru SSH      |" | boxes -d dog | lolcat
-echo -e "============-Dahlaz Mrai-============" | lolcat
+echo -e "============-UnixSSH-============" | lolcat
 echo -e "     Host: $myip" | lolcat
 echo -e "     Username: $uname" | lolcat
 echo -e "     Password: $pass                       " | lolcat
@@ -35,7 +35,7 @@ echo -e "   DI LARANG:                              "| lolcat
 echo -e "   HACKING-DDOS-PHISING-SPAM-TORENT        " | lolcat
 echo -e "   CARDING-CRIMINAL CYBER.                 "| lolcat
 echo -e "===========================================" | lolcat
-echo -e "   Script by Dahlaz Mrai              "| lolcat
+echo -e "   Script by TheMyth              "| lolcat
 myip=`ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0' | head -n1`;
 echo -e "   Config OVPN:                            "| lolcat
 echo -e "   http://$myip:81/1194-client.ovpn        " | lolcat
@@ -224,14 +224,14 @@ echo "" | lolcat
 echo "" | lolcat
 echo "" | lolcat
 echo "" | lolcat
-#echo "        ----[SELAMAT DATANG DI VPS Dahlaz Mrai]---"| boxes -d dog | lolcat
+#echo "            ----[SELAMAT DATANG DI VPS Dahlaz Mrai]---"| boxes -d dog | lolcat
 #echo "        ====================================================="| lolcat
 #echo "        #           WhatsApp     : 082139743432             #"| lolcat
 #echo "        #           Telegram     : e-Server                 #"| lolcat
 #echo "        #           Facebook     : fb.com/t34mh4ck3r        #"| lolcat
 #echo "        #           Pin-BBM      : yu-suf                   #"| lolcat
 #echo "        #                                                   #"| lolcat
-#echo "        #        Copyright © Dahlaz Mrai™  2017        #"| lolcat
+#echo "        #          Copyright © Dahlaz Mrai™  2017           #"| lolcat
 #echo "        ====================================================="| lolcat
 lolcat -F 0.3 -S 0 /root/bannermenu
 date +"                    %A, %d-%m-%Y" | lolcat
