@@ -6,7 +6,7 @@ red='\e[1;32m'
 
 echo -e $red "       =====================================================" 
 echo -e $green "       #                                                      #" 
-echo -e $purple "       #    [SELAMAT DATANG DI VPS  YUSUF ARDIANSYAH]         #" 
+echo -e $purple "       #        [SELAMAT DATANG DI VPS  The Myth]             #" 
 echo -e $blue "       #                                                      #" 
 echo -e $green "       #           WhatsApp       : 087883551474              #" 
 echo -e $red "       #           Telegram       : 083896793109              #" 
