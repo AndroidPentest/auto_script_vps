@@ -120,17 +120,17 @@ clear
 echo "" | lolcat
 echo "" | lolcat
 echo "" | lolcat
-echo "        ----[SELAMAT DATANG DI VPS YUSUF ARDIANSYAH]---"| boxes -d dog | lolcat
-echo "        ====================================================="| lolcat
-echo "        #           WhatsApp     : 082139743432             #"| lolcat
-echo "        #           Telegram     : CyberSS                  #"| lolcat
-echo "        #           Facebook     : fb.com/t34mh4ck3r        #"| lolcat
-echo "        #           Pin-BBM      : yu-suf                   #"| lolcat
-echo "        #                                                   #"| lolcat
-echo "        #   Silahkan ketik menu lalu ENTER untuk pilihan    #"| lolcat
-echo "        #                                                   #"| lolcat
-echo "        #        Copyright © yusuf-ardiansyah™  2017        #"| lolcat
-echo "        ====================================================="| lolcat
-date +"                    %A, %d-%m-%Y" | lolcat
-date +"                            %H:%M:%S %Z" | lolcat
+echo "                ----[SELAMAT DATANG DI VPS The Myth ]---"
+echo "        ====================================================="
+echo "        #           WhatsApp     :                          #"
+echo "        #           Telegram     :    		          #"
+echo "        #           Facebook     :                          #"
+echo "        #           Pin-BBM      :                          #"
+echo "        #                                                   #"
+echo "        #   Silahkan ketik menu lalu ENTER untuk pilihan    #"
+echo "        #                                                   #"
+echo "        #        Copyright © TheMyth & JoSSH™  2017        #"
+echo "        ====================================================="
+date +"                    %A, %d-%m-%Y"
+date +"                            %H:%M:%S %Z" 
 echo ""
