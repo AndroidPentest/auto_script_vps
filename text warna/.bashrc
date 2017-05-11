@@ -117,9 +117,9 @@ red='\e[1;32m'
 
 #echo -e $green' ☠>_________________'
 clear
-echo "" | lolcat
-echo "" | lolcat
-echo "" | lolcat
+echo "" 
+echo "" 
+echo "" 
 echo "                ----[SELAMAT DATANG DI VPS The Myth ]---"
 echo "        ====================================================="
 echo "        #           WhatsApp     :                          #"
