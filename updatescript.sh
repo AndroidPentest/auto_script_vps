@@ -11,7 +11,7 @@ cd
 #service webmin restart
 
 clear
-echo "selesai bosss...." | lolcat
+echo "selesai bosss...."
 sleep 3
 rm /root/updatescript.sh
 clear
