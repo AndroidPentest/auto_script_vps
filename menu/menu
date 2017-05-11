@@ -18,7 +18,7 @@ useradd -e `date -d "$masaaktif days" +"%Y-%m-%d"` -s /bin/false -M $uname
 exp="$(chage -l $uname | grep "Account expires" | awk -F": " '{print $2}')"
 echo -e "$pass\n$pass\n"|passwd $uname &> /dev/null
 echo -e ""
-echo -e "|      Informasi Akun Baru SSH      |" | boxes -d dog 
+echo -e "|      Informasi Akun Baru SSH      |"
 echo -e "============-UnixSSH-============" 
 echo -e "     Host: $myip" 
 echo -e "     Username: $uname" 
@@ -94,7 +94,7 @@ function not_expired_users(){
 
 function monssh2(){
 echo ""
-echo "|   Tgl-Jam    | PID   |   User Name  |      Dari IP      |"| boxes -d peek 
+echo "|   Tgl-Jam    | PID   |   User Name  |      Dari IP      |"
 echo "-------------------------------------------------------------"
 data=( `ps aux | grep -i dropbear | awk '{print $2}'`);
 
@@ -179,7 +179,7 @@ function lokasi(){
 
 data=( `ps aux | grep -i dropbear | awk '{print $2}'`);
 
-echo "User Login" | boxes -d peek ;
+echo "User Login"  ;
 echo "=================================";
 echo "Username     IP" 
 echo "---------------------------------"
@@ -420,7 +420,7 @@ Port dropbear tidak boleh sama dengan port openVPN/openSSH/squid3 !!!"
 			break
 			;;
         "Ganti Port Squid3")	
-            echo "Silahkan ganti port Squid3 anda lalu klik enter"| boxes -d dog 
+            echo "Silahkan ganti port Squid3 anda lalu klik enter"
 	    echo "Isi dengan angka tidak boleh huruf !!!"
 	    read -p "Port Squid3: " -e -i 8080 PORT
             #sed -i 's/http_port [0-9]*\nhttp_port [0-9]*/http_port $PORT1\nhttp_port $PORT2/g' /etc/squid3/squid.conf
